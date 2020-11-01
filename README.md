@@ -1,6 +1,11 @@
 # Shizen
+Shizen is a Minecraft Mod.
 
-## Overview
+# Overview
 
-## Author
-DocV
+
+# License
+- MIT
+
+# Author
+- DocV (Discord: DocV#7240)

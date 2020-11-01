@@ -18,7 +18,7 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.stream.Collectors;
 
-@Mod("shizen")
+@Mod(Shizen.MOD_ID)
 public class Shizen
 {
 	public static final String MOD_ID = "shizen";

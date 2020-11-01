@@ -6,7 +6,7 @@
   "item.shizen.pear": "ナシ",
   "item.shizen.orange": "ミカン",
   "item.shizen.grape": "ブドウ",
-  "item.shizen.olive": "オリーブ",
+  "item.shizen.lemon": "レモン",
   "item.shizen.banana_tree_block": "バナナの木",
   "item.shizen.apricot_tree_block": "アンズの木",
   "item.shizen.peach_tree_block": "モモの木",
@@ -14,5 +14,5 @@
   "item.shizen.pear_tree_block": "ナシの木",
   "item.shizen.orange_tree_block": "ミカンの木",
   "item.shizen.grape_tree_block": "ブドウの木",
-  "item.shizen.olive_tree_block": "オリーブの木"
+  "item.shizen.lemon_tree_block": "レモンの木"
 }

@@ -17,7 +17,7 @@ public class Blocks {
 	public static Block BANANA_TREE_BLOCK = register("banana_tree_block", new Block(AbstractBlock.Properties.create(Material.WOOD).hardnessAndResistance(2.5F).sound(SoundType.WOOD)));
 	public static Block APRICOT_TREE_BLOCK = register("apricot_tree_block", new Block(AbstractBlock.Properties.create(Material.WOOD).hardnessAndResistance(2.5F).sound(SoundType.WOOD)));
 	public static Block GRAPE_TREE_BLOCK = register("grape_tree_block", new Block(AbstractBlock.Properties.create(Material.WOOD).hardnessAndResistance(2.5F).sound(SoundType.WOOD)));
-	public static Block OLIVE_TREE_BLOCK = register("olive_tree_block", new Block(AbstractBlock.Properties.create(Material.WOOD).hardnessAndResistance(2.5F).sound(SoundType.WOOD)));
+	public static Block LEMON_TREE_BLOCK = register("lemon_tree_block", new Block(AbstractBlock.Properties.create(Material.WOOD).hardnessAndResistance(2.5F).sound(SoundType.WOOD)));
 	public static Block ORANGE_TREE_BLOCK = register("orange_tree_block", new Block(AbstractBlock.Properties.create(Material.WOOD).hardnessAndResistance(2.5F).sound(SoundType.WOOD)));
 	public static Block PEACH_TREE_BLOCK = register("peach_tree_block", new Block(AbstractBlock.Properties.create(Material.WOOD).hardnessAndResistance(2.5F).sound(SoundType.WOOD)));
 	public static Block PEAR_TREE_BLOCK = register("pear_tree_block", new Block(AbstractBlock.Properties.create(Material.WOOD).hardnessAndResistance(2.5F).sound(SoundType.WOOD)));

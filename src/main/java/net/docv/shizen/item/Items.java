@@ -22,12 +22,12 @@ public class Items {
 	public static final Item PEAR = register("pear", new Item((new Item.Properties()).group(ItemGroup.FOOD)));
 	public static final Item ORANGE = register("orange", new Item((new Item.Properties()).group(ItemGroup.FOOD)));
 	public static final Item GRAPE = register("grape", new Item((new Item.Properties()).group(ItemGroup.FOOD)));
-	public static final Item OLIVE = register("olive", new Item((new Item.Properties()).group(ItemGroup.FOOD)));
+	public static final Item LEMON = register("lemon", new Item((new Item.Properties()).group(ItemGroup.FOOD)));
 
 	public static final Item BANANA_TREE_BLOCK = register("banana_tree_block", Blocks.BANANA_TREE_BLOCK, ItemGroup.BUILDING_BLOCKS);
 	public static final Item APRICOT_TREE_BLOCK = register("apricot_tree_block", Blocks.APRICOT_TREE_BLOCK, ItemGroup.BUILDING_BLOCKS);
 	public static final Item GRAPE_TREE_BLOCK = register("grape_tree_block", Blocks.GRAPE_TREE_BLOCK, ItemGroup.BUILDING_BLOCKS);
-	public static final Item OLIVE_TREE_BLOCK = register("olive_tree_block", Blocks.OLIVE_TREE_BLOCK, ItemGroup.BUILDING_BLOCKS);
+	public static final Item LEMON_TREE_BLOCK = register("olive_tree_block", Blocks.LEMON_TREE_BLOCK, ItemGroup.BUILDING_BLOCKS);
 	public static final Item ORANGE_TREE_BLOCK = register("orange_tree_block", Blocks.ORANGE_TREE_BLOCK, ItemGroup.BUILDING_BLOCKS);
 	public static final Item PEACH_TREE_BLOCK = register("peach_tree_block", Blocks.PEACH_TREE_BLOCK, ItemGroup.BUILDING_BLOCKS);
 	public static final Item PEAR_TREE_BLOCK = register("pear_tree_block", Blocks.PEAR_TREE_BLOCK, ItemGroup.BUILDING_BLOCKS);

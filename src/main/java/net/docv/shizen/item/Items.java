@@ -3,6 +3,7 @@ package net.docv.shizen.item;
 import java.util.ArrayList;
 import java.util.List;
 
+import net.docv.shizen.Shizen;
 import net.docv.shizen.block.Blocks;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
@@ -12,7 +13,7 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
-@Mod.EventBusSubscriber(modid = "shizen", bus = Mod.EventBusSubscriber.Bus.MOD)
+@Mod.EventBusSubscriber(modid = Shizen.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class Items {
 	public static List<Item> itemList = new ArrayList<Item>();
 	public static final Item BANANA = register("banana", new Item((new Item.Properties()).group(ItemGroup.FOOD)));
@@ -35,7 +36,7 @@ public class Items {
 
 	private static Item register(String key, Item itemIn) {
 		itemList.add(itemIn);
-		return itemIn.setRegistryName("shizen", key);
+		return itemIn.setRegistryName(Shizen.MOD_ID, key);
 	}
 
 	private static Item register(String key, Block blockIn, ItemGroup itemGroupIn) {

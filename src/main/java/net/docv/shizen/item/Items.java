@@ -32,7 +32,6 @@ public class Items {
 	public static final Item PEACH_TREE_BLOCK = register("peach_tree_block", Blocks.PEACH_TREE_BLOCK, ItemGroup.BUILDING_BLOCKS);
 	public static final Item PEAR_TREE_BLOCK = register("pear_tree_block", Blocks.PEAR_TREE_BLOCK, ItemGroup.BUILDING_BLOCKS);
 	public static final Item PLUM_TREE_BLOCK = register("plum_tree_block", Blocks.PLUM_TREE_BLOCK, ItemGroup.BUILDING_BLOCKS);
-	public static final Item QUINCE_TREE_BLOCK = register("quince_tree_block", Blocks.QUINCE_TREE_BLOCK, ItemGroup.BUILDING_BLOCKS);
 
 	private static Item register(String key, Item itemIn) {
 		itemList.add(itemIn);

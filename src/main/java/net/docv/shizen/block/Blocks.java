@@ -22,7 +22,6 @@ public class Blocks {
 	public static Block PEACH_TREE_BLOCK = register("peach_tree_block", new Block(AbstractBlock.Properties.create(Material.WOOD).hardnessAndResistance(2.5F).sound(SoundType.WOOD)));
 	public static Block PEAR_TREE_BLOCK = register("pear_tree_block", new Block(AbstractBlock.Properties.create(Material.WOOD).hardnessAndResistance(2.5F).sound(SoundType.WOOD)));
 	public static Block PLUM_TREE_BLOCK = register("plum_tree_block", new Block(AbstractBlock.Properties.create(Material.WOOD).hardnessAndResistance(2.5F).sound(SoundType.WOOD)));
-	public static Block QUINCE_TREE_BLOCK = register("quince_tree_block", new Block(AbstractBlock.Properties.create(Material.WOOD).hardnessAndResistance(2.5F).sound(SoundType.WOOD)));
 
 	private static Block register(String key, Block blockIn) {
 		blockList.add(blockIn);

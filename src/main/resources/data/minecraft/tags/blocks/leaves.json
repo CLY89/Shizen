@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "shizen:apricot_leaves",
+    "shizen:banana_leaves",
+    "shizen:grape_leaves",
+    "shizen:lemon_leaves",
+    "shizen:orange_leaves",
+    "shizen:peach_leaves",
+    "shizen:pear_leaves",
+    "shizen:plum_leaves"
+  ]
+}

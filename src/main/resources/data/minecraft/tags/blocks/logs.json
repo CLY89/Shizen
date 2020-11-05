@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "shizen:banana_log",
+    "shizen:apricot_log",
+    "shizen:grape_log",
+    "shizen:lemon_log",
+    "shizen:orange_log",
+    "shizen:peach_log",
+    "shizen:pear_log",
+    "shizen:plum_log"
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "shizen:block/apricot_tree_block"
+    "all": "shizen:block/pear_tree"
   }
 }

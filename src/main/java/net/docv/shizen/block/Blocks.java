@@ -48,45 +48,45 @@ import net.minecraftforge.fml.common.Mod;
 public class Blocks {
 	public static List<Block> blockList = new ArrayList<Block>();
 
-	public static Block APRICOT_TREE = register("apricot_tree", new ApricotTreeBlock());
-	public static Block APRICOT_TREE_LOG= register("apricot_tree_log", new ApricotTreeLogBlock());
-	public static Block APRICOT_TREE_LEAVES = register("apricot_tree_leaves", new ApricotTreeLeavesBlock());
-	public static Block APRICOT_TREE_SAPLING = register("apricot_tree_sapling", new ApricotTreeSaplingBlock());
+	public static Block APRICOT_WOOD = register("apricot_wood", new ApricotTreeBlock());
+	public static Block APRICOT_LOG= register("apricot_log", new ApricotTreeLogBlock());
+	public static Block APRICOT_LEAVES = register("apricot_leaves", new ApricotTreeLeavesBlock());
+	public static Block APRICOT_SAPLING = register("apricot_sapling", new ApricotTreeSaplingBlock());
 
-	public static Block BANANA_TREE = register("banana_tree", new BananaTreeBlock());
-	public static Block BANANA_TREE_LOG = register("banana_tree_log", new BananaTreeLogBlock());
-	public static Block BANANA_TREE_LEAVES = register("banana_tree_leaves", new BananaTreeLeavesBlock());
-	public static Block BANANA_TREE_SAPLING = register("banana_tree_sapling", new BananaTreeSaplingBlock());
+	public static Block BANANA_WOOD = register("banana_wood", new BananaTreeBlock());
+	public static Block BANANA_LOG = register("banana_log", new BananaTreeLogBlock());
+	public static Block BANANA_LEAVES = register("banana_leaves", new BananaTreeLeavesBlock());
+	public static Block BANANA_SAPLING = register("banana_sapling", new BananaTreeSaplingBlock());
 
-	public static Block GRAPE_TREE = register("grape_tree", new GrapeTreeBlock());
-	public static Block GRAPE_TREE_LOG = register("grape_tree_log", new GrapeTreeLogBlock());
-	public static Block GRAPE_TREE_LEAVES = register("grape_tree_leaves", new GrapeTreeLeavesBlock());
-	public static Block GRAPE_TREE_SAPLING = register("grape_tree_sapling", new GrapeTreeSaplingBlock());
+	public static Block GRAPE_WOOD = register("grape_wood", new GrapeTreeBlock());
+	public static Block GRAPE_LOG = register("grape_log", new GrapeTreeLogBlock());
+	public static Block GRAPE_LEAVES = register("grape_leaves", new GrapeTreeLeavesBlock());
+	public static Block GRAPE_SAPLING = register("grape_sapling", new GrapeTreeSaplingBlock());
 
-	public static Block LEMON_TREE = register("lemon_tree", new LemonTreeBlock());
-	public static Block LEMON_TREE_LOG = register("lemon_tree_log", new LemonTreeLogBlock());
-	public static Block LEMON_TREE_LEAVES = register("lemon_tree_leaves", new LemonTreeLeavesBlock());
-	public static Block LEMON_TREE_SAPLING = register("lemon_tree_sapling", new LemonTreeSaplingBlock());
+	public static Block LEMON_WOOD = register("lemon_wood", new LemonTreeBlock());
+	public static Block LEMON_LOG = register("lemon_log", new LemonTreeLogBlock());
+	public static Block LEMON_LEAVES = register("lemon_leaves", new LemonTreeLeavesBlock());
+	public static Block LEMON_SAPLING = register("lemon_sapling", new LemonTreeSaplingBlock());
 
-	public static Block ORANGE_TREE = register("orange_tree", new OrangeTreeBlock());
-	public static Block ORANGE_TREE_LOG = register("orange_tree_log", new OrangeTreeLogBlock());
-	public static Block ORANGE_TREE_LEAVES = register("orange_tree_leaves", new OrangeTreeLeavesBlock());
-	public static Block ORANGE_TREE_SAPLING = register("orange_tree_sapling", new OrangeTreeSaplingBlock());
+	public static Block ORANGE_WOOD = register("orange_wood", new OrangeTreeBlock());
+	public static Block ORANGE_LOG = register("orange_log", new OrangeTreeLogBlock());
+	public static Block ORANGE_LEAVES = register("orange_leaves", new OrangeTreeLeavesBlock());
+	public static Block ORANGE_SAPLING = register("orange_sapling", new OrangeTreeSaplingBlock());
 
-	public static Block PEACH_TREE = register("peach_tree", new PeachTreeBlock());
-	public static Block PEACH_TREE_LOG = register("peach_tree_log", new PeachTreeLogBlock());
-	public static Block PEACH_TREE_LEAVES = register("peach_tree_leaves", new PeachTreeLeavesBlock());
-	public static Block PEACH_TREE_SAPLING = register("peach_tree_sapling", new PeachTreeSaplingBlock());
+	public static Block PEACH_WOOD = register("peach_wood", new PeachTreeBlock());
+	public static Block PEACH_LOG = register("peach_log", new PeachTreeLogBlock());
+	public static Block PEACH_LEAVES = register("peach_leaves", new PeachTreeLeavesBlock());
+	public static Block PEACH_SAPLING = register("peach_sapling", new PeachTreeSaplingBlock());
 
-	public static Block PEAR_TREE = register("pear_tree", new PearTreeBlock());
-	public static Block PEAR_TREE_LOG = register("pear_tree_log", new PearTreeLogBlock());
-	public static Block PEAR_TREE_LEAVES = register("pear_tree_leaves", new PearTreeLeavesBlock());
-	public static Block PEAR_TREE_SAPLING = register("pear_tree_sapling", new PearTreeSaplingBlock());
+	public static Block PEAR_WOOD = register("pear_wood", new PearTreeBlock());
+	public static Block PEAR_LOG = register("pear_log", new PearTreeLogBlock());
+	public static Block PEAR_LEAVES = register("pear_leaves", new PearTreeLeavesBlock());
+	public static Block PEAR_SAPLING = register("pear_sapling", new PearTreeSaplingBlock());
 
-	public static Block PLUM_TREE = register("plum_tree", new PlumTreeBlock());
-	public static Block PLUM_TREE_LOG = register("plum_tree_log", new PlumTreeLogBlock());
-	public static Block PLUM_TREE_LEAVES = register("plum_tree_leaves", new PlumTreeLeavesBlock());
-	public static Block PLUM_TREE_SAPLING = register("plum_tree_sapling", new PlumTreeSaplingBlock());
+	public static Block PLUM_WOOD = register("plum_wood", new PlumTreeBlock());
+	public static Block PLUM_LOG = register("plum_log", new PlumTreeLogBlock());
+	public static Block PLUM_LEAVES = register("plum_leaves", new PlumTreeLeavesBlock());
+	public static Block PLUM_SAPLING = register("plum_sapling", new PlumTreeSaplingBlock());
 
 	private static Block register(String key, Block blockIn) {
 		blockList.add(blockIn);

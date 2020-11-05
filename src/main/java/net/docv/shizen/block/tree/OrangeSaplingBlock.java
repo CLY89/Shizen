@@ -1,4 +1,4 @@
-package net.docv.shizen.block.woods;
+package net.docv.shizen.block.tree;
 
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.SaplingBlock;

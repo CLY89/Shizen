@@ -1,5 +1,6 @@
 package net.docv.shizen;
 
+import net.docv.shizen.world.gen.TreeGenerator;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -29,11 +30,14 @@ public class Shizen
         // Register the doClientStuff method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
 
+        TreeGenerator.init();
+
         MinecraftForge.EVENT_BUS.register(this);
     }
 
     private void setup(final FMLCommonSetupEvent event) {
         LOGGER.info("HELLO FROM PREINIT");
+        TreeGenerator.setup();
     }
 
     private void enqueueIMC(final InterModEnqueueEvent event) {

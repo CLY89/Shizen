@@ -22,5 +22,13 @@
   "item.shizen.pear_log": "ナシの原木",
   "item.shizen.orange_log": "ミカンの原木",
   "item.shizen.grape_log": "ブドウの原木",
-  "item.shizen.lemon_log": "レモンの原木"
+  "item.shizen.lemon_log": "レモンの原木",
+  "item.shizen.banana_sapling": "バナナの苗木",
+  "item.shizen.apricot_sapling": "アンズの苗木",
+  "item.shizen.peach_sapling": "モモの苗木",
+  "item.shizen.plum_sapling": "スモモの苗木",
+  "item.shizen.pear_sapling": "ナシの苗木",
+  "item.shizen.orange_sapling": "ミカンの苗木",
+  "item.shizen.grape_sapling": "ブドウの苗木",
+  "item.shizen.lemon_sapling": "レモンの苗木"
 }

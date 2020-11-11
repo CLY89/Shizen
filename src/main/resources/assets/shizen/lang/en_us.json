@@ -22,5 +22,13 @@
   "item.shizen.pear_log": "Pear Log",
   "item.shizen.orange_log": "Orange Log",
   "item.shizen.grape_log": "Grape Log",
-  "item.shizen.lemon_log": "Lemon Log"
+  "item.shizen.lemon_log": "Lemon Log",
+  "item.shizen.banana_sapling": "Banana Sapling",
+  "item.shizen.apricot_sapling": "Apricot Sapling",
+  "item.shizen.peach_sapling": "Peach Sapling",
+  "item.shizen.plum_sapling": "Plum Sapling",
+  "item.shizen.pear_sapling": "Pear Sapling",
+  "item.shizen.orange_sapling": "Orange Sapling",
+  "item.shizen.grape_sapling": "Grape Sapling",
+  "item.shizen.lemon_sapling": "Lemon Sapling"
 }

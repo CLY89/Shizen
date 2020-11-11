@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "axis=y": { "model": "shizen:block/lemon_log" },
+    "axis=z": { "model": "shizen:block/lemon_log", "x": 90 },
+    "axis=x": { "model": "shizen:block/lemon_log", "x": 90, "y": 90 }
+  }
+}

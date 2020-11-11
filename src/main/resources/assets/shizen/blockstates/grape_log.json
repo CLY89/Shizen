@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "axis=y": { "model": "shizen:block/grape_log" },
+    "axis=z": { "model": "shizen:block/grape_log", "x": 90 },
+    "axis=x": { "model": "shizen:block/grape_log", "x": 90, "y": 90 }
+  }
+}

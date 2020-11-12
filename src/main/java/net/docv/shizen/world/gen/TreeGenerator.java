@@ -8,6 +8,13 @@ import java.util.function.Supplier;
 import com.google.common.collect.Lists;
 
 import net.docv.shizen.world.gen.feature.ApricotTreeFeature;
+import net.docv.shizen.world.gen.feature.BananaTreeFeature;
+import net.docv.shizen.world.gen.feature.GrapeTreeFeature;
+import net.docv.shizen.world.gen.feature.LemonTreeFeature;
+import net.docv.shizen.world.gen.feature.OrangeTreeFeature;
+import net.docv.shizen.world.gen.feature.PeachTreeFeature;
+import net.docv.shizen.world.gen.feature.PearTreeFeature;
+import net.docv.shizen.world.gen.feature.PlumTreeFeature;
 import net.minecraft.util.RegistryKey;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.registry.Registry;
@@ -22,15 +29,49 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class TreeGenerator {
 	public static ApricotTreeFeature APRICOT;
-	//public static BananaTreeFeature BANANA;
+	public static BananaTreeFeature BANANA;
+	public static GrapeTreeFeature GRAPE;
+	public static LemonTreeFeature LEMON;
+	public static OrangeTreeFeature ORANGE;
+	public static PeachTreeFeature PEACH;
+	public static PearTreeFeature PEAR;
+	public static PlumTreeFeature PLUM;
 	public static ConfiguredFeature<?, ?> CONFIGURED_APRICOT;
+	public static ConfiguredFeature<?, ?> CONFIGURED_BANANA;
+	public static ConfiguredFeature<?, ?> CONFIGURED_GRAPE;
+	public static ConfiguredFeature<?, ?> CONFIGURED_LEMON;
+	public static ConfiguredFeature<?, ?> CONFIGURED_ORANGE;
+	public static ConfiguredFeature<?, ?> CONFIGURED_PEACH;
+	public static ConfiguredFeature<?, ?> CONFIGURED_PEAR;
+	public static ConfiguredFeature<?, ?> CONFIGURED_PLUM;
 
 	public static void init() {
 		ForgeRegistries.FEATURES.register(new ApricotTreeFeature(BaseTreeFeatureConfig.field_236676_a_).setRegistryName("shizen:apricot"));
-		//ForgeRegistries.FEATURES.register(new BananaTreeFeature(BaseTreeFeatureConfig.field_236676_a_).setRegistryName("shizen:banana"));
+		ForgeRegistries.FEATURES.register(new BananaTreeFeature(BaseTreeFeatureConfig.field_236676_a_).setRegistryName("shizen:banana"));
+		ForgeRegistries.FEATURES.register(new GrapeTreeFeature(BaseTreeFeatureConfig.field_236676_a_).setRegistryName("shizen:grape"));
+		ForgeRegistries.FEATURES.register(new LemonTreeFeature(BaseTreeFeatureConfig.field_236676_a_).setRegistryName("shizen:lemon"));
+		ForgeRegistries.FEATURES.register(new OrangeTreeFeature(BaseTreeFeatureConfig.field_236676_a_).setRegistryName("shizen:orange"));
+		ForgeRegistries.FEATURES.register(new PeachTreeFeature(BaseTreeFeatureConfig.field_236676_a_).setRegistryName("shizen:peach"));
+		ForgeRegistries.FEATURES.register(new PearTreeFeature(BaseTreeFeatureConfig.field_236676_a_).setRegistryName("shizen:pear"));
+		ForgeRegistries.FEATURES.register(new PlumTreeFeature(BaseTreeFeatureConfig.field_236676_a_).setRegistryName("shizen:plum"));
 
 		APRICOT = (ApricotTreeFeature) ForgeRegistries.FEATURES.getValue(ResourceLocation.tryCreate("shizen:apricot"));
+		BANANA = (BananaTreeFeature) ForgeRegistries.FEATURES.getValue(ResourceLocation.tryCreate("shizen:banana"));
+		GRAPE = (GrapeTreeFeature) ForgeRegistries.FEATURES.getValue(ResourceLocation.tryCreate("shizen:grape"));
+		LEMON = (LemonTreeFeature) ForgeRegistries.FEATURES.getValue(ResourceLocation.tryCreate("shizen:lemon"));
+		ORANGE = (OrangeTreeFeature) ForgeRegistries.FEATURES.getValue(ResourceLocation.tryCreate("shizen:orange"));
+		PEACH = (PeachTreeFeature) ForgeRegistries.FEATURES.getValue(ResourceLocation.tryCreate("shizen:peach"));
+		PEAR = (PearTreeFeature) ForgeRegistries.FEATURES.getValue(ResourceLocation.tryCreate("shizen:pear"));
+		PLUM = (PlumTreeFeature) ForgeRegistries.FEATURES.getValue(ResourceLocation.tryCreate("shizen:plum"));
+
 		CONFIGURED_APRICOT = Registry.register(WorldGenRegistries.field_243653_e, "shizen:apricot", APRICOT.configure());
+		CONFIGURED_BANANA = Registry.register(WorldGenRegistries.field_243653_e, "shizen:banana", BANANA.configure());
+		CONFIGURED_GRAPE = Registry.register(WorldGenRegistries.field_243653_e, "shizen:grape", GRAPE.configure());
+		CONFIGURED_LEMON = Registry.register(WorldGenRegistries.field_243653_e, "shizen:lemon", LEMON.configure());
+		CONFIGURED_ORANGE = Registry.register(WorldGenRegistries.field_243653_e, "shizen:orange", ORANGE.configure());
+		CONFIGURED_PEACH = Registry.register(WorldGenRegistries.field_243653_e, "shizen:peach", PEACH.configure());
+		CONFIGURED_PEAR = Registry.register(WorldGenRegistries.field_243653_e, "shizen:pear", PEAR.configure());
+		CONFIGURED_PLUM = Registry.register(WorldGenRegistries.field_243653_e, "shizen:plum", PLUM.configure());
 	}
 
 	public static void setup() {

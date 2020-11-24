@@ -1,8 +1,10 @@
 # Shizen
-Shizen is a Minecraft Mod.
+Shizen is a harvest Mod.
 
-# Overview
-
+# Feature
+- New kinds of fruits.
+- New kinds of woods.
+- etc..
 
 # License
 - MIT

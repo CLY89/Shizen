@@ -1,11 +1,11 @@
-package net.docv.shizen.food.fruits;
+package net.docv.shizen.item.fruits;
 
 import net.minecraft.item.Food;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 
-public class Apricot extends Item {
-	public Apricot() {
+public class Banana extends Item {
+	public Banana() {
 		super(new Item.Properties()
 				.food(new Food.Builder()
 						.hunger(4)

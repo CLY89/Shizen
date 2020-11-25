@@ -2,9 +2,10 @@
 Shizen is a harvest Mod.
 
 # Feature
-- New kinds of fruits.
-- New kinds of woods.
-- etc..
+- Add new fruits.
+- Add new woods.
+- Add new recipe.
+- Add new equipment.
 
 # License
 - MIT

@@ -1,4 +1,4 @@
-package net.docv.shizen.world.gen.feature;
+package net.docv.shizen.tree;
 
 import com.google.common.collect.ImmutableList;
 import com.mojang.serialization.Codec;
@@ -16,8 +16,8 @@ import net.minecraft.world.gen.placement.Placement;
 import net.minecraft.world.gen.treedecorator.BeehiveTreeDecorator;
 import net.minecraft.world.gen.trunkplacer.StraightTrunkPlacer;
 
-public class GrapeTreeFeature extends TreeFeature {
-	public GrapeTreeFeature(Codec<BaseTreeFeatureConfig> codec) {
+public class BananaTreeFeature extends TreeFeature {
+	public BananaTreeFeature(Codec<BaseTreeFeatureConfig> codec) {
 		super(codec);
 	}
 
@@ -28,8 +28,8 @@ public class GrapeTreeFeature extends TreeFeature {
 	public ConfiguredFeature<BaseTreeFeatureConfig, ?> setConfiguration() {
 		return this.withConfiguration(
 				new BaseTreeFeatureConfig.Builder(
-						new SimpleBlockStateProvider(Blocks.GRAPE_LOG.getDefaultState()),
-						new SimpleBlockStateProvider(Blocks.GRAPE_LEAVES.getDefaultState()),
+						new SimpleBlockStateProvider(Blocks.BANANA_LOG.getDefaultState()),
+						new SimpleBlockStateProvider(Blocks.BANANA_LEAVES.getDefaultState()),
 						new BlobFoliagePlacer(FeatureSpread.func_242252_a(2), FeatureSpread.func_242252_a(0), 3),
 						new StraightTrunkPlacer(5, 2, 0),
 						new TwoLayerFeature(1, 0, 1)

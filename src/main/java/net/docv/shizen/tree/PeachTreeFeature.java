@@ -1,4 +1,4 @@
-package net.docv.shizen.world.gen.feature;
+package net.docv.shizen.tree;
 
 import com.google.common.collect.ImmutableList;
 import com.mojang.serialization.Codec;

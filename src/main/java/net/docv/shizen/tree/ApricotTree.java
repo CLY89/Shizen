@@ -1,4 +1,4 @@
-package net.docv.shizen.block.tree;
+package net.docv.shizen.tree;
 
 import java.util.Random;
 

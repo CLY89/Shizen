@@ -7,14 +7,14 @@ import java.util.function.Supplier;
 
 import com.google.common.collect.Lists;
 
-import net.docv.shizen.world.gen.feature.ApricotTreeFeature;
-import net.docv.shizen.world.gen.feature.BananaTreeFeature;
-import net.docv.shizen.world.gen.feature.GrapeTreeFeature;
-import net.docv.shizen.world.gen.feature.LemonTreeFeature;
-import net.docv.shizen.world.gen.feature.OrangeTreeFeature;
-import net.docv.shizen.world.gen.feature.PeachTreeFeature;
-import net.docv.shizen.world.gen.feature.PearTreeFeature;
-import net.docv.shizen.world.gen.feature.PlumTreeFeature;
+import net.docv.shizen.tree.ApricotTreeFeature;
+import net.docv.shizen.tree.BananaTreeFeature;
+import net.docv.shizen.tree.GrapeTreeFeature;
+import net.docv.shizen.tree.LemonTreeFeature;
+import net.docv.shizen.tree.OrangeTreeFeature;
+import net.docv.shizen.tree.PeachTreeFeature;
+import net.docv.shizen.tree.PearTreeFeature;
+import net.docv.shizen.tree.PlumTreeFeature;
 import net.minecraft.util.RegistryKey;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.registry.Registry;
@@ -76,6 +76,13 @@ public class TreeGenerator {
 
 	public static void setup() {
 		addTreeToOverWorld(CONFIGURED_APRICOT);
+		addTreeToOverWorld(CONFIGURED_BANANA);
+		addTreeToOverWorld(CONFIGURED_GRAPE);
+		addTreeToOverWorld(CONFIGURED_LEMON);
+		addTreeToOverWorld(CONFIGURED_ORANGE);
+		addTreeToOverWorld(CONFIGURED_PEACH);
+		addTreeToOverWorld(CONFIGURED_PEAR);
+		addTreeToOverWorld(CONFIGURED_PLUM);
 	}
 
 	private static void addTreeToOverWorld(ConfiguredFeature<?, ?> featureIn) {
